@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./generateupload.css";
 
-const MAX_FILENAME_LENGTH = 80; // Giới hạn độ dài tên file
+const MAX_FILENAME_LENGTH = 80;
 
 const GenerateUpload = ({ inputNumber, onImageUpload, selectedFiles }) => {
   const [errorMessage, setErrorMessage] = useState("");

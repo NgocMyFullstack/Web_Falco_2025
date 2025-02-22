@@ -1,12 +1,11 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Index from "./views/index";
-import ImageHover from "./views/HoverImage/image";
 import Home from "./views/Home/Home";
 import Login from "./views/Login/login";
 import SignUp from "./views/SignUp/signup";

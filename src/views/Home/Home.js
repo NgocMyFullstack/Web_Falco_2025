@@ -7,7 +7,7 @@ import { useAuth } from "../../views/Login/authcontext";
 
 const Home = () => {
   const { isAuthenticated } = useAuth();
-  const [activeLink, setActiveLink] = useState("#home");
+  const [setActiveLink] = useState("#home");
   const [decodedAccessToken, setDecodedAccessToken] = useState(null);
   const navigate = useNavigate();
 

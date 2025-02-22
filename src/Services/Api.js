@@ -73,11 +73,16 @@ export const uploadImagesMask = async (formData) => {
 export const checkImageStatus = async (taskId) => {
   try {
     const response = await apiClient.get(`task-status/${taskId}/`);
+
+    if (response.data?.status === "FAILURE") {
+      throw new Error("please click Generate Image again");
+    }
+
     console.log("Status check successful:", response.data);
     return response.data;
   } catch (error) {
-    console.error("Status check error:", error.response || error.message);
-    throw new Error("Error checking image status: " + error.message);
+    console.error("Status check error:", "A request error occurred.");
+    throw new Error("please click Generate Image again");
   }
 };
 

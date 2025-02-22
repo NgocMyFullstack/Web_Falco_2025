@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ImageUpload from "./HoverImage/ImageUpload";
 
 const Index = () => {
   const [selectedFiles, setSelectedFiles] = useState({
@@ -62,22 +61,11 @@ const Index = () => {
       <div className="mb-5">
         <div className="upload-section mb-4 p-4 border rounded bg-light">
           <h3 className="text-secondary mb-3">3D View Image Input</h3>
-          <div className="form-group">
-            <ImageUpload
-              inputNumber={1}
-              onImageUpload={handleImageUpload}
-              selectedFiles={selectedFiles}
-            />
-          </div>
+          <div className="form-group"></div>
         </div>
 
         <div className="upload-section mb-4 p-4 border rounded bg-light">
           <h3 className="text-secondary">Style Input</h3>
-          <ImageUpload
-            inputNumber={2}
-            onImageUpload={handleImageUpload}
-            selectedFiles={selectedFiles}
-          />
         </div>
 
         <div className="prompt-section mb-4 p-4 border rounded bg-light">

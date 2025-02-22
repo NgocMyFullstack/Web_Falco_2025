@@ -4,7 +4,6 @@ import { useAuth } from "./authcontext";
 import "./login.css";
 import image2 from "../../assets/images/image2.png";
 import { useLogin } from "../../Services/userServies";
-import apiClient from "../../Services/Api";
 
 const Login = () => {
   const [email, setEmail] = useState("");
