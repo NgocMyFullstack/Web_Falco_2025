@@ -1,0 +1,57 @@
+.file-upload-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  width: 100%;
+  gap: 0px;
+  padding-left: 26px;
+}
+
+.column {
+  flex: 1;
+  padding-left: 26px;
+}
+.custom-file-wrapper {
+  margin-top: 10px;
+  display: "flex";
+  justify-content: center;
+  align-content: center;
+  width: 100px;
+  height: 50px;
+  background: #ffd1b5;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-file-label {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.file-input {
+  display: block;
+  width: 100%;
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  border: 1px solid white;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+}

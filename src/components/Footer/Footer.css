@@ -1,0 +1,20 @@
+.container-fluids {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: -5px;
+}
+.footer-bottom {
+  padding-top: 21px;
+  background: #263238;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.footer-image {
+  width: 100%;
+  height: 100%;
+}
